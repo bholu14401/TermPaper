@@ -1,11 +1,11 @@
 # TermPaper
 
-Data 
 
-Aim : To create datastream in AWS data stream and perform data visualization in AWS analytics
+### Aim : To connect Amazon Managed Service for Apache Flink Studio to your existing stream and clean, aggregate, and enrich the incoming events and to derived insights are finally persisted in Amazon OpenSearch, where they can be accessed and visualized
 
 
-1) First we need to create stack from AWS CloudFormation -
+
+#### 1) First we need to create stack from AWS CloudFormation -
    
 
 i) Go to AWS CloudFormation and click on create stack
@@ -18,7 +18,9 @@ iv) Check all three boxes of acknoledgement and click on submit.
 
 Now it will start creating all resources for you
 
-2) Now by the time it create all resources we will create data stream -
+
+
+#### 2) Now by the time it create all resources we will create data stream -
 
 
 i) Search kinesis and click on Data streams
@@ -26,7 +28,8 @@ i) Search kinesis and click on Data streams
 ii) Enter name of your stream as "input-stream"
 
 
-3) After creating datastream, now we will go to Cloud9 for genrating random data for our stream -
+
+#### 3) After creating datastream, now we will go to Cloud9 for genrating random data for our stream -
 
 i) Search for AWS Cloud9 and click on aouto genrated environment by AWS CloudFormation. 
 
@@ -40,7 +43,8 @@ python Demo.py
 
 v) It will start genrating random data for us to stream. You can go to you data stream and check activities under Monitoring. Data will be visible to you in Monitoring tab after roughly 5-7 mins of starting program.
 
-4) Now we will go to AWS kinesis and then go to Managed Apache Flink(AWS kinesis Data analytics) for analyzing straming data-
+
+#### 4) Now we will go to AWS kinesis and then go to Managed Apache Flink(AWS kinesis Data analytics) for analyzing straming data-
 
 
 i) Studio notebook will be already been created by CloudFormation. When you will click on studio notebook, it will take you to Zeppelin which is interactive data analytics and document collaboration notebook. 
@@ -59,7 +63,8 @@ Vii) Now you can run next cells.
 
 Viii) For 5th and 6th cell, you copy values to be replaced from cell 3 and run this two cells.
 
-5) Now we Start out visualiztions process
+
+#### 5) Now we Start out visualiztions process
 
  
  i) For this, we will goto Amazon OpenSearch Service, and click on the dashboard. You need to enter same admin name and passord which you used in Zeppelin for Step 3.
