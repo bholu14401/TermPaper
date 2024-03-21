@@ -1,5 +1,7 @@
 # TermPaper
 
+Data 
+
 Aim : To create datastream in AWS data stream and perform data visualization in AWS analytics
 
 
@@ -64,6 +66,10 @@ Viii) For 5th and 6th cell, you copy values to be replaced from cell 3 and run t
 
  ii) You can select any tenants, between global and private right now. 
 
- iii) First we will goto Stack management tab and select Index patterns. Index pattern helps you to retrive your data from OpenSearch. Your index pattern name should be equal to name of source.
+ iii) First we will run "select * from 'Name of your index in Step 3' " to retrive data
 
- iv) 
+ iv) Now we will goto Stack management tab and select Index patterns. Index pattern helps you to retrive your data from OpenSearch. Your index pattern name should be same as of your index in step 3. 
+
+ v) Now go to visualize and create visualization of your choice.
+
+
