@@ -11,6 +11,7 @@ To connect Amazon Managed Service for Apache Flink Studio to your existing strea
 ### Step 2: Creating Data Stream
 1. Search Kinesis and click on Data streams.
 2. Enter the name of your stream as "input-stream".
+3. Click on create stream.
 
 ### Step 3: Generating Random Data
 1. Search for AWS Cloud9 and click on auto-generated environment by AWS CloudFormation.
